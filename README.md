@@ -87,9 +87,9 @@ This project already includes `render.yaml` for Render.
 ### Render Steps
 
 1. Push the project to GitHub.
-2. Create a new Render Web Service.
+2. Create or sync the `sos-emergency` Render Web Service.
 3. Connect your GitHub repository.
-4. Add environment variable:
+4. Add the required environment variable:
    `FAST2SMS_API_KEY=your_fast2sms_api_key`
 5. Deploy.
 
